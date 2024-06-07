@@ -1,0 +1,44 @@
+/* Container styling */
+.table-container {
+    margin-top: 50px;
+}
+
+/* Table styling */
+.table {
+    margin-bottom: 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table header styling */
+.thead-dark th {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Hover effect on table rows */
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button styling */
+.btn {
+    border-radius: 20px;
+}
+
+/* Responsive form layout */
+@media (max-width: 768px) {
+    .form-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .form-group:last-child {
+        align-self: stretch;
+    }
+}
